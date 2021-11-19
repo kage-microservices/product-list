@@ -37,3 +37,11 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
+
+declare module "@kage/store" {
+  const store: any;
+  const actions: any;
+  export {
+    store, actions
+  }
+}
